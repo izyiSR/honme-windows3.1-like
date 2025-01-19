@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;}
+header{justify-content: space-between;
+    background-color:silver;
+    text-align: center;}
+nav ul{display: flex;
+    padding:0;
+    margin: 0;
+    gap: 20px;
+    font-size:25px;
+    list-style-type: none;
+    
+    background-color: blue;
+    border: solid 1px black;
+    font-family: "ＭＳ ゴシック","ヒラギノ角ゴ ProN"}
+header h1{padding:0;margin: 0;gap: 30px; color:inherit;font-size: 45px;text-decoration: none; text-align: center; margin-bottom: 20px;}
+#mini{font-size: 10px}
+#cooperation{font-size: 30px;}
+main{padding: 20px; min-height: calc(100%-50px);}
+footer{width: 100%;
+    background-color:silver;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    line-height:70px;}
+body{margin: 0;padding: 0;height: 100%;display: grid;}
